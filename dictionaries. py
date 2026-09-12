@@ -1,0 +1,14 @@
+student = {}
+
+student["name"] = input("Enter your name: ")
+student["age"] = int(input("Enter your age: "))
+student["branch"] = input("Enter your branch: ")
+student["college"] = input("Enter your college: ")
+
+print("\n--- Student Details ---")
+
+for key, value in student.items():
+    print(key, ":", value)
+
+print("city:", student.get("city", "not available"))
+print("Email:", student.get("Email", "not available"))
