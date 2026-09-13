@@ -1,0 +1,10 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+branch = input("Enter your branch: ")
+
+print("\n--- Student Information ---")
+print("Name:", name)
+print("Age:", age)
+print("Branch:", branch)
+
+print("\nNext year your age will be:", age + 1)
