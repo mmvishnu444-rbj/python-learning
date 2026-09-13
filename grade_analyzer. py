@@ -1,0 +1,33 @@
+student ={}
+name = input("Enter your name:  ")
+maths = int(input("Enter your maths marks:  "))
+science = int(input("Enter your science marks:  "))
+python = int(input("Enter your python marks: "))
+total = maths+science+python
+average = total/3
+print("total: ", total)
+print("average: ", average)
+
+if average >= 90:
+    grade ="A"
+elif average >= 75:
+    grade = "B"
+elif average >= 60:
+    grade = "C"
+elif average >= 50:
+    grade = "D"
+else:
+    grade = "fail"
+   
+print("\n---student result----")
+
+student["name"] = name
+student["maths"] = maths
+student["science"] = science
+student["python"] = python
+student["total"] = total
+student["average"] = average
+student["grade"] = grade
+
+for key, value in student.items():
+    print(key,":", value)
