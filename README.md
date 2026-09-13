@@ -27,4 +27,4 @@ To become a skilled AI/ML engineer and build useful projects.
 
 ✅ Python Basics  
 ✅ Git & GitHub Basics  
-🚀 Continuing my AIML journey
+🚀 Continuing my AIML journey.
