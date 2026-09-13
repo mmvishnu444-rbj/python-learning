@@ -1,0 +1,25 @@
+numbers = [10, 20, 30, 40, 50]
+
+print("--- Original List ---")
+print(numbers)
+
+numbers.append(60)
+print("\nAfter append:")
+print(numbers)
+
+numbers.insert(1, 15)
+print("\nAfter insert:")
+print(numbers)
+
+numbers.remove(30)
+print("\nAfter remove:")
+print(numbers)
+
+numbers.pop(2)
+print("\nAfter pop:")
+print(numbers)
+
+print("\n--- Slicing ---")
+print("First 3:", numbers[:3])
+print("Last 3:", numbers[-3:])
+print("Reverse:", numbers[::-1])
